@@ -1,0 +1,23 @@
+body,
+html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    background-image: url(../img/fon.jpg);
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lobster', sans-serif;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    overflow: hidden;
+}
+content{
+    background-color: rgb(177, 16, 123);
+    text-align: center;
+}

@@ -2,22 +2,46 @@ body,
 html {
     height: 100%;
 }
-body{
+
+body {
     margin: 0;
     background-image: url(../img/fon.jpg);
     background-position: right bottom;
     background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Lobster', sans-serif;
 }
+
 .wrapper {
+    min-height: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
-    overflow: hidden;
 }
-content{
-    background-color: rgb(177, 16, 123);
+
+.content {
+    background-color: pink;
+    padding: 50px 100px  70px 100px;
     text-align: center;
+    border-radius: 200px 10pxx 200px 0px;
+    animation: scale 1s;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.poem {
+    font-size: 40px;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
